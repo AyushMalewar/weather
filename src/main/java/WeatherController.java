@@ -49,7 +49,7 @@ public class WeatherController extends HttpServlet {
 
                 out.println("<html><body bgcolor=\"#F5F5DC\">");
                 out.println("<center>");
-                out.println("<br><br><br><h2>" + "Invalid city" + "</h2>");
+                out.println("<br><br><br><h2>" + "Invalid city,<br> please check the city name" + "</h2>");
                 out.println("</center>");
                 out.println("</html></body>");
 
