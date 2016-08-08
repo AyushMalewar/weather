@@ -39,7 +39,7 @@ public class WeatherController extends HttpServlet {
             if(flag==0){
                 out.println("<html><body bgcolor=\"#F5F5DC\">");
                 out.println("<center>");
-                out.println("<br><br><h1>" + "Current Temperature is:" + "</h1>");
+                out.println("<br><br><h1>" + "Current Temperature of "+ cityname +" is:" + "</h1>");
                 out.println("<h2>" + temp + "&deg;C"+"</h2>");
                 out.println("</center>");
                 out.println("</html></body>");
