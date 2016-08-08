@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<style>
+    body{
+    background-color: #F5F5DC;
+    }
+    h1 {
+    color: #F08080;
+    text-align: center;
+    }
+    .button{
+    background-color: #3CB371; /* Green */
+    border: 1px solid #ffa853;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px #ffa853;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 29px;
+    width: 150px;
+    cursor: pointer;
+    }
+    .inputbox{
+    background: white;
+    border: 1px solid #ffa853;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px #ffa853;
+    color: #666;
+    outline: none;
+    height: 26px;
+    width: 300px;
+    }
+
+    </style>
+<center>
+    <h1>Simple Weather App</h1>
+    <form action="WeatherController" method="POST">
+        <input type="text" name="cityname" placeholder=" Type the city name " class="inputbox">
+        <input type="submit" value="Get The Temp" class="button">
+    </form>
+</center>
+</body>
+</html>

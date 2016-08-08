@@ -1,0 +1,17 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+       http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         version="2.5">
+    <servlet>
+        <servlet-name>WeatherController</servlet-name>
+        <servlet-class>WeatherController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WeatherController</servlet-name>
+        <url-pattern>/WeatherController</url-pattern>
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>/page/home.html</welcome-file>
+    </welcome-file-list>
+
+</web-app>
